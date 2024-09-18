@@ -2,7 +2,7 @@ SNAKE GAME
 
 OVERVIEW
 
-The Snake Game is a classic arcade game where the player controls a snake that moves around the screen, consuming food to grow longer while avoiding collisions with the walls and itself. This implementation is built using React for the frontend and Node.js for the backend.
+The Snake Game is a classic arcade game where the player controls a snake that moves around the screen, consuming food to grow longer while avoiding collisions with itself. In this implementation, the snake moves across the walls, meaning it will reappear on the opposite side when it moves off one edge of the screen. This edge-wrapping feature adds a strategic element to the gameplay.
 
 
 FEATURES
