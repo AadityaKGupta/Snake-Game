@@ -26,47 +26,51 @@ GETTING STARTED:
 
 -Installation:
 
-1.)Clone the Repository :- git clone https://github.com/AadityaKGupta/Snake-Game.git
+1.)Clone the Repository :- 
 
-2.)Navigate to the Project Directory :- cd Snake-Game
+>git clone https://github.com/AadityaKGupta/Snake-Game.git
+
+2.)Navigate to the Project Directory :-
+
+>cd Snake-Game
 
 3.)Install Dependencies for Frontend:
 
->Navigate to the frontend directory (if applicable) and install dependencies:- 
+Navigate to the frontend directory (if applicable) and install dependencies:- 
 
-cd frontend
+>cd frontend
 
-npm install
+>npm install
 
 4.)Install Dependencies for Backend:
 
->Navigate to the backend directory (if applicable) and install dependencies:-
+Navigate to the backend directory (if applicable) and install dependencies:-
 
-cd backend
+>cd backend
 
-npm install
+>npm install
 
 RUNNING THE PROJECT:
 
-1.)Start the Backend Server
+1.)Start the Backend Server:-
 
 >Navigate to the backend directory and start the server:
 
-cd backend
+>cd backend
 
-npm start
+>npm start
 
 2.)Start the Frontend Application
 
->Navigate to the frontend directory and start the React application:
+Navigate to the frontend directory and start the React application:
 
-cd frontend
+>cd frontend
 
-npm start
+>npm start
 
 3.)Open the Game
 
-Open your browser and go to http://localhost:3000 (or the port specified by your React application).
+>Open your browser and go to http://localhost:3000 (or the port specified by your React application).
 
 HOW TO PLAY:
 
