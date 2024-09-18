@@ -54,7 +54,7 @@ RUNNING THE PROJECT:
 
 1.)Start the Backend Server:-
 
->Navigate to the backend directory and start the server:
+Navigate to the backend directory and start the server:
 
 >cd backend
 
