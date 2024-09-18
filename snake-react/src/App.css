@@ -1,0 +1,180 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.title {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.score,
+.high-score {
+  font-size: 18px;
+  font-weight: bold;
+  color: #555;
+}
+
+.board {
+  display: inline-block;
+  border: 2px solid #333;
+  background-color: #fff;
+  padding: 5px;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #eee;
+}
+
+.snake {
+  background-color: #28a745;
+}
+
+.food {
+  background-color: #dc3545;
+}
+
+.game-over-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border: 2px solid #333;
+  text-align: center;
+}
+
+.restart-btn {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.restart-btn:hover {
+  background-color: #0056b3;
+}
+
+.happy-bombs {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+
+.happy-bomb {
+  width: 50px;
+  height: 50px;
+  background-color: yellow;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(255, 255, 0, 0.8);
+}
+
+.happy-bomb.left {
+  margin-left: 10px;
+}
+
+.happy-bomb.right {
+  margin-right: 10px;
+}
+
+.congrats-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.congrats-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+.congrats-content h2 {
+  margin: 0 0 10px;
+}
+
+.congrats-content p {
+  margin: 0 0 20px;
+}
+
+.close-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  background-color: #0056b3;
+}
+/* App.css */
+
+.cell {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+  display: inline-block;
+  background-color: white; /* Default color for empty cells */
+}
+
+.snake-body {
+  background-color: rgb(247, 162, 6); /* Yellow color for the snake's body */
+}
+
+.snake-head {
+  background-color: green; /* Green color for the snake's head (mouth) */
+}
+
+.food {
+  background-color: red; /* Red color for the food */
+}
+
+/* Optional styling for the game over screen, scoreboard, and happy bombs */
