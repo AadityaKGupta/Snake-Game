@@ -1,10 +1,10 @@
-Snake Game
+SNAKE GAME
 
-Overview
+OVERVIEW
 
 The Snake Game is a classic arcade game where the player controls a snake that moves around the screen, consuming food to grow longer while avoiding collisions with the walls and itself. This implementation is built using React for the frontend and Node.js for the backend.
 
-Features
+FEATURES
 
 1.)Classic Gameplay: Enjoy the traditional Snake game mechanics.
 
@@ -18,11 +18,13 @@ Features
 
 GETTING STARTED:
 
-Prerequisites:-
--->Node.js (v14 or later)
--->npm (comes with Node.js)
+-Prerequisites:-
 
-Installation:
+>Node.js (v14 or later)
+
+>npm (comes with Node.js)
+
+-Installation:
 
 1.)Clone the Repository :- git clone https://github.com/AadityaKGupta/Snake-Game.git
 
@@ -30,7 +32,7 @@ Installation:
 
 3.)Install Dependencies for Frontend:
 
--Navigate to the frontend directory (if applicable) and install dependencies:- 
+>Navigate to the frontend directory (if applicable) and install dependencies:- 
 
 cd frontend
 
@@ -38,25 +40,28 @@ npm install
 
 4.)Install Dependencies for Backend:
 
--Navigate to the backend directory (if applicable) and install dependencies:-
+>Navigate to the backend directory (if applicable) and install dependencies:-
 
 cd backend
 
 npm install
 
 RUNNING THE PROJECT:
+
 1.)Start the Backend Server
 
--->Navigate to the backend directory and start the server:
+>Navigate to the backend directory and start the server:
 
 cd backend
+
 npm start
 
 2.)Start the Frontend Application
 
--->Navigate to the frontend directory and start the React application:
+>Navigate to the frontend directory and start the React application:
 
 cd frontend
+
 npm start
 
 3.)Open the Game
@@ -86,4 +91,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ACKNOWLEDGEMENT:
 
 Inspired by the classic Snake game.
+
 Built using React and Node.js.
