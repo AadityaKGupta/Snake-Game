@@ -10,73 +10,78 @@ Features
 
 2.)Responsive Design: Play the game on various screen sizes.
 
-Score Tracking: Keep track of your score and high score.
-User Authentication: Login and register to save your high scores.
-Game Over Handling: Shows a game over screen with options to restart.
-Getting Started
-Prerequisites
-Node.js (v14 or later)
-npm (comes with Node.js)
-Installation
-Clone the Repository
+3.)Score Tracking: Keep track of your score and high score.
 
-bash
-Copy code
-git clone https://github.com/AadityaKGupta/Snake-Game.git
-Navigate to the Project Directory
+4.)User Authentication: Login and register to save your high scores.
 
-bash
-Copy code
-cd Snake-Game
-Install Dependencies for Frontend
+5.)Game Over Handling: Shows a game over screen with options to restart.
 
-Navigate to the frontend directory (if applicable) and install dependencies:
+GETTING STARTED:
 
-bash
-Copy code
+Prerequisites:-
+-->Node.js (v14 or later)
+-->npm (comes with Node.js)
+
+Installation:
+
+1.)Clone the Repository :- git clone https://github.com/AadityaKGupta/Snake-Game.git
+
+2.)Navigate to the Project Directory :- cd Snake-Game
+
+3.)Install Dependencies for Frontend:
+
+-->Navigate to the frontend directory (if applicable) and install dependencies:- 
+
 cd frontend
 npm install
-Install Dependencies for Backend
 
-Navigate to the backend directory (if applicable) and install dependencies:
+4.)Install Dependencies for Backend:
 
-bash
-Copy code
+-->Navigate to the backend directory (if applicable) and install dependencies:
+
 cd backend
 npm install
-Running the Project
-Start the Backend Server
 
-Navigate to the backend directory and start the server:
+RUNNING THE PROJECT:
+1.)Start the Backend Server
 
-bash
-Copy code
+-->Navigate to the backend directory and start the server:
+
 cd backend
 npm start
-Start the Frontend Application
 
-Navigate to the frontend directory and start the React application:
+2.)Start the Frontend Application
 
-bash
-Copy code
+-->Navigate to the frontend directory and start the React application:
+
 cd frontend
 npm start
-Open the Game
+
+3.)Open the Game
 
 Open your browser and go to http://localhost:3000 (or the port specified by your React application).
 
-How to Play
-Controls: Use the arrow keys to move the snake (up, down, left, right).
-Objective: Eat the food to grow longer and increase your score.
-Game Over: Avoid colliding with the walls or the snake's own body.
-Contributing
+HOW TO PLAY:
+
+1.)Controls: Use the arrow keys to move the snake (up, down, left, right).
+
+2.)Objective: Eat the food to grow longer and increase your score.
+
+3.)Game Over: Avoid colliding with the walls or the snake's own body.
+
+CONTRIBUTING:
+
 Feel free to contribute to the project by:
 
-Reporting Issues: Create issues on GitHub for bugs or feature requests.
-Pull Requests: Submit pull requests with improvements or bug fixes.
-License
+1.)Reporting Issues: Create issues on GitHub for bugs or feature requests.
+
+2.)Pull Requests: Submit pull requests with improvements or bug fixes.
+
+LICENSE:
+
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Acknowledgements
+ACKNOWLEDGEMENT:
+
 Inspired by the classic Snake game.
 Built using React and Node.js.
