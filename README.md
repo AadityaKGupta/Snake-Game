@@ -30,16 +30,18 @@ Installation:
 
 3.)Install Dependencies for Frontend:
 
--->Navigate to the frontend directory (if applicable) and install dependencies:- 
+-Navigate to the frontend directory (if applicable) and install dependencies:- 
 
 cd frontend
+
 npm install
 
 4.)Install Dependencies for Backend:
 
--->Navigate to the backend directory (if applicable) and install dependencies:
+-Navigate to the backend directory (if applicable) and install dependencies:-
 
 cd backend
+
 npm install
 
 RUNNING THE PROJECT:
