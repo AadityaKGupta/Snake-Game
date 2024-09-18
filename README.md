@@ -88,10 +88,6 @@ Feel free to contribute to the project by:
 
 2.)Pull Requests: Submit pull requests with improvements or bug fixes.
 
-LICENSE:
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ACKNOWLEDGEMENT:
 
 Inspired by the classic Snake game.
