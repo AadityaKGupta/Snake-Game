@@ -18,15 +18,15 @@ FEATURES
 5.)Game Over Handling: Shows a game over screen with options to restart.
 
 
-GETTING STARTED:
+##GETTING STARTED:
 
--Prerequisites:-
+###Prerequisites:-
 
 >Node.js (v14 or later)
 
 >npm (comes with Node.js)
 
--Installation:
+###Installation:
 
 1.)Clone the Repository :- 
 
@@ -53,7 +53,7 @@ Navigate to the backend directory (if applicable) and install dependencies:-
 >npm install
 
 
-RUNNING THE PROJECT:
+###RUNNING THE PROJECT:
 
 1.)Start the Backend Server:-
 
@@ -75,7 +75,7 @@ Navigate to the frontend directory and start the React application:
 
 >Open your browser and go to http://localhost:3000 (or the port specified by your React application).
 
-HOW TO PLAY:
+###HOW TO PLAY:
 
 1.)Controls: Use the arrow keys to move the snake (up, down, left, right).
 
@@ -84,7 +84,7 @@ HOW TO PLAY:
 3.)Game Over: Avoid colliding with the walls or the snake's own body.
 
 
-CONTRIBUTING:
+###CONTRIBUTING:
 
 Feel free to contribute to the project by:
 
@@ -93,7 +93,7 @@ Feel free to contribute to the project by:
 2.)Pull Requests: Submit pull requests with improvements or bug fixes.
 
 
-ACKNOWLEDGEMENT:
+###ACKNOWLEDGEMENT:
 
 Inspired by the classic Snake game.
 
