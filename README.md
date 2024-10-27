@@ -1,6 +1,3 @@
-Here's a properly structured README file for your Snake Game project, including contact details and a section for the license. You can copy this format into your `README.md` file in your GitHub repository.
-
-```markdown
 # Snake Game
 
 ## Overview
@@ -54,31 +51,31 @@ The Snake Game is a classic arcade game where the player controls a snake that m
    npm install
    ```
 
-### Running the Project
+## Running the Project
 
-1. **Start the Backend Server**:
+### Start the Backend Server
 
-   Navigate to the backend directory and start the server:
+Navigate to the backend directory and start the server:
 
-   ```bash
-   cd backend
-   npm start
-   ```
+```bash
+cd backend
+npm start
+```
 
-2. **Start the Frontend Application**:
+### Start the Frontend Application
 
-   Navigate to the frontend directory and start the React application:
+Navigate to the frontend directory and start the React application:
 
-   ```bash
-   cd frontend
-   npm start
-   ```
+```bash
+cd frontend
+npm start
+```
 
-3. **Open the Game**:
+### Open the Game
 
-   Open your browser and go to [http://localhost:3000](http://localhost:3000) (or the port specified by your React application).
+Open your browser and go to [http://localhost:3000](http://localhost:3000) (or the port specified by your React application).
 
-### How to Play
+## How to Play
 
 1. **Controls**: Use the arrow keys to move the snake (up, down, left, right).
 2. **Objective**: Eat the food to grow longer and increase your score.
@@ -108,10 +105,3 @@ For any inquiries or feedback, please reach out to:
 - **Name**: Aaditya Gupta
 - **Email**: aadityagupta@example.com
 - **GitHub**: [AadityaKGupta](https://github.com/AadityaKGupta)
-```
-
-### Instructions for Customization
-
-- **Contact Details**: Replace `aadityagupta@example.com` with your actual email address and update the name if necessary.
-- **License**: Ensure that the `LICENSE` file exists in your project root and contains the correct license information.
-- **Markdown Formatting**: You can preview the formatting on GitHub by viewing the README file in your repository. Make any necessary adjustments for clarity and appearance.
